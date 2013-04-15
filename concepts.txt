@@ -1,0 +1,30 @@
+User:
+
+* LI profile fields
+* Email address
+* Preferred neighborhoods
+
+Match:
+
+We will create two of these for each match suggestion we create.
+
+* Primary user
+* Secondary user
+* Accepted match?
+* Suggested time block (may decompose into multiple fields)
+
+Meeting:
+
+When a match is symmetrically accepted, we manually create a meeting.
+
+* Start time
+* End time
+* Location
+* Canceled? (becomes true if a user needs to bail)
+
+UserMeeting:
+
+Join table to track which users are involved in a meeting.
+
+* User id
+* Meeting id
