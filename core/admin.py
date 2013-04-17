@@ -1,7 +1,6 @@
 from django.contrib import admin
 from core.models import CoffeeMatch
 
-
 class CoffeeMatchAdmin(admin.ModelAdmin):
     readonly_fields = ["created", "updated"]
     list_display = ["recipient", "candidate", "accepted", "updated"]

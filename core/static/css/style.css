@@ -1,0 +1,84 @@
+html { 
+background: url(../images/bg1.png) no-repeat center center fixed; 	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+font-size: 12px;
+color:#FFF;
+padding:20px;
+margin:100px;
+text-align: center;
+overflow:hidden;
+}
+
+#container {
+padding: 0px;
+position:absolute;
+}
+#content {
+text-align: left;
+vertical-align: middle;
+margin: 0px auto;
+padding: 0px;
+}
+
+#joinbtn {
+	padding: 30px;
+}
+
+#copymenu {
+text-align: left;
+vertical-align: middle;
+margin: 0px auto;
+padding-top:5px;
+font-size:10px;
+color:#FFF;
+}
+p, pre {
+margin: 0px;
+padding: 0px 0px;
+}
+h1 {
+font-size: 34px;
+font-family: helvetica;
+text-align: left;
+}
+
+h2 {
+font-size: 22px;
+font-family: helvetica;
+text-align: left;
+color:#B9B9B9;
+}
+.white
+{
+	color:#EEE;
+}
+.black
+{
+	color:#000;
+}
+a {
+color: #ff9933;
+font-size: 14px;
+text-decoration: none;
+}
+a:hover {
+	text-decoration:underline;
+	color: #30A4D4;
+}
+#mainbody {
+text-align:left;
+color: #fff;
+opacity:1;
+font-size: 14px;
+font-family:tahoma;
+padding: 50px 10px 10px 0px;
+width:400px;
+position:absolute;
+}
+.clear { clear: both;}
