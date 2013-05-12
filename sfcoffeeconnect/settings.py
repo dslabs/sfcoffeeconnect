@@ -104,10 +104,8 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
 )
 
-LOGIN_URL          = '/login-form/'
-LOGIN_REDIRECT_URL = '/logged-in/'
-LOGIN_ERROR_URL    = '/login-error/'
-
+LINKEDIN_CONSUMER_KEY        = 'zfrw3nu7cxp4'
+LINKEDIN_CONSUMER_SECRET     = '4QksFkf0GHONTjpF'
 # Add email to requested authorizations.
 LINKEDIN_SCOPE = ['r_fullprofile', 'r_emailaddress', 'r_network', 'r_contactinfo']
 # Add the fields so they will be requested from linkedin.
